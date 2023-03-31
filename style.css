@@ -1,0 +1,53 @@
+
+
+body{
+	background-color: grey;
+	box-sizing: border-box;
+	}
+			
+.mainDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.formDiv{
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 50%;
+	height: 50%;
+	background-color: pink;
+}
+
+input{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom : 10px;
+	width: 100%;
+	padding : 10px;
+}
+
+.btn-login{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom : 10px;
+	width: 100%;
+	padding : 10px;
+	background-color: green;
+	color: white;
+	font-weight: bold;
+}
+
+.form-heading{
+	text-align: center;
+	
+}
+
+.innerFormDiv{
+	width: 80%;
+}
+
+
